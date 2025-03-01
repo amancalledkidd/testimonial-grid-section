@@ -184,6 +184,9 @@ p {
 .user-3 p {
   color: hsl(224, 10%, 45%);
 }
+.user-3 h2, .user-3 h3 {
+  color: hsl(217, 19%, 35%);
+}
 @media (min-width: 1048px) {
   .user-3 {
     grid-area: user3;
@@ -220,6 +223,9 @@ p {
   .user-5 {
     grid-area: user5;
   }
+}
+.user-5 h2, .user-5 h3 {
+  color: hsl(217, 19%, 35%);
 }
 .user-5 p {
   color: hsl(224, 10%, 45%);

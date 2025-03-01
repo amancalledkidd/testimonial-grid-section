@@ -113,6 +113,10 @@ p {
     color: vars.$clr-grey-400;
   }
 
+  h2, h3 {
+    color: vars.$clr-grey-500;
+  }
+
   @media (min-width: 1048px) {
     grid-area: user3;
   }
@@ -148,6 +152,10 @@ p {
 
   @media (min-width: 1048px) {
     grid-area: user5;
+  }
+
+  h2, h3 {
+    color: vars.$clr-grey-500;
   }
 
   p {

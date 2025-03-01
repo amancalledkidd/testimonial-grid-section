@@ -96,7 +96,7 @@ p {
   display: grid;
   margin: 2rem auto;
   gap: 2rem;
-  width: clamp(320px, 95%, 1200px);
+  width: clamp(300px, 95%, 1200px);
 }
 @media (min-width: 600px) {
   .testimonials {
@@ -133,7 +133,7 @@ p {
   border-radius: 50%;
 }
 .user__info p {
-  margin: 0;
+  margin-top: 0.25rem;
 }
 .user__info .username {
   font: 500 0.813rem/1.1 "Barlow Semi Condensed", serif;

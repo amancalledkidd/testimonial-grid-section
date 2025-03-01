@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "watch:scss": "sass -w styles/style.scss styles/style.css"
-  },
+  "start": "npx sass scss/global.scss css/global.css --watch",
+  "build": "npx sass scss/global.scss css/global.css --style=compressed"
+},
   "devDependencies": {
     "sass": "^1.85.1"
   }
